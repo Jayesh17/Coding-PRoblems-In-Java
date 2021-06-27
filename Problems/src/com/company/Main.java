@@ -27,7 +27,7 @@ public class Main {
         pb5.method2();
         pb5.method3();*/
 
-        int a[] = new int[]{4,1,6,2,8,7,9};
+        /*int a[] = new int[]{4,1,6,2,8,7,9};
 
 
         for (int i = 0; i < a.length; i++) {
@@ -38,6 +38,18 @@ public class Main {
         System.out.println();
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i]+"");
-        }
+        }*/
+
+        /*Problem6 pb6 = new Problem6();
+        pb6.method1();*/
+
+        /*Problem7 pb7 = new Problem7();
+        pb7.method1();*/
+
+        Problem8 pb8 = new Problem8();
+        pb8.question1(10);
+        pb8.question2(9);
+        System.out.println();
+        System.out.println(pb8.question3(9,2));
     }
 }

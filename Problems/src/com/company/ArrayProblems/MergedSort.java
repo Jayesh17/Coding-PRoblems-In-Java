@@ -1,11 +1,13 @@
 package com.company.ArrayProblems;
 
+import java.util.Arrays;
+
 public class MergedSort {
 
 
     public static void merge(int[] arr,int low,int mid,int high)
     {
-        int third[] = new int[high+1];
+        int third[] = new int[arr.length];
         int FP = low;
         int SP = mid+1;
         int TP = low;
@@ -25,25 +27,20 @@ public class MergedSort {
                 TP++;
             }
         }
-        if(FP != mid)
+        while(FP < mid)
         {
-            while(FP <= mid)
-            {
-                third[TP] = arr[FP];
-                TP++;
-                FP++;
-            }
+            third[TP] = arr[FP];
+            TP++;
+            FP++;
         }
-        else
+        while(SP < high)
         {
-            while(SP < high)
-            {
-                third[TP] = arr[SP];
-                SP++;
-                TP++;
-            }
+            third[TP] = arr[SP];
+            SP++;
+            TP++;
         }
-        for (int i = 0; i < third.length; i++) {
+
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = third[i];
         }
     }

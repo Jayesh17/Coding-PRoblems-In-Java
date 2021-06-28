@@ -46,10 +46,20 @@ public class Main {
         /*Problem7 pb7 = new Problem7();
         pb7.method1();*/
 
-        Problem8 pb8 = new Problem8();
+        /*Problem8 pb8 = new Problem8();
         pb8.question1(10);
         pb8.question2(9);
         System.out.println();
-        System.out.println(pb8.question3(9,2));
+        System.out.println(pb8.question3(9,2));*/
+
+        /*Problem9 pb9 = new Problem9();
+        pb9.method2();*/
+
+        /*Problem11 pb11 = new Problem11();
+        pb11.method1();*/
+
+        /*Problem12 pb12 = new Problem12();
+        pb12.method1();
+        pb12.method2();*/
     }
 }

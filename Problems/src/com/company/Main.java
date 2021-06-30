@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.ArrayProblems.*;
+import com.company.Hashing.Problem1;
 
 public class Main {
 
@@ -61,5 +62,39 @@ public class Main {
         /*Problem12 pb12 = new Problem12();
         pb12.method1();
         pb12.method2();*/
+
+        /*Problem13 pb13 = new Problem13();
+        pb13.prob_1_1(1430);
+        pb13.prob1_2(120);
+        pb13.prob1_2(149);
+        pb13.prob1_2(1);
+        pb13.prob2_1(42);
+        pb13.prob2_1(81);
+        pb13.prob2_1(4);
+        pb13.prob2_1(15);
+        pb13.prob1_3(120);
+        pb13.prob1_3(149);
+        pb13.prob1_3(1);
+        pb13.prob1_3(33);*/
+
+       /* Problem14 pb14 = new Problem14();
+        pb14.method1();
+        pb14.method2();*/
+
+        /*Problem15 pb15 = new Problem15();
+        pb15.method1();
+        pb15.method2();*/
+
+        /*Problem16 pb16 = new Problem16();
+        pb16.method1();
+        pb16.method2();*/
+
+        /*Problem17 pb17  = new Problem17();
+        pb17.method1();
+        pb17.method2();
+        pb17.method3();*/
+
+        Problem1 pb1 = new Problem1();
+        pb1.method2();
     }
 }

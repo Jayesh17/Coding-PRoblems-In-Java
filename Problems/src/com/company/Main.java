@@ -2,6 +2,9 @@ package com.company;
 
 import com.company.ArrayProblems.*;
 import com.company.Hashing.Problem1;
+import com.company.Hashing.Problem2;
+import com.company.Hashing.Problem3;
+import com.company.Hashing.Problem4;
 
 public class Main {
 
@@ -94,7 +97,20 @@ public class Main {
         pb17.method2();
         pb17.method3();*/
 
-        Problem1 pb1 = new Problem1();
-        pb1.method2();
+        //Hashing
+
+        /*Problem1 pb1 = new Problem1();
+        pb1.method2();*/
+
+        /*Problem2 pb2 = new Problem2();
+        pb2.method1(12);*/
+
+        /*Problem3 pb3 = new Problem3();
+        pb3.method1();
+        pb3.method2();*/
+
+        Problem4 pb4 = new Problem4();
+        pb4.method1();
+        pb4.method2();
     }
 }

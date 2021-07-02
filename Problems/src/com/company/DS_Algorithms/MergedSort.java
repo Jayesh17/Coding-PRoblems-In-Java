@@ -1,6 +1,4 @@
-package com.company.Algorithms;
-
-import java.util.Arrays;
+package com.company.DS_Algorithms;
 
 public class MergedSort {
 

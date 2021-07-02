@@ -1,10 +1,15 @@
 package com.company;
 
 import com.company.ArrayProblems.*;
-import com.company.Hashing.Problem1;
-import com.company.Hashing.Problem2;
+import com.company.DS_Algorithms.LinkedList;
 import com.company.Hashing.Problem3;
 import com.company.Hashing.Problem4;
+import com.company.Hashing.Problem6;
+import com.company.LinkedLists.Problem1;
+import com.company.LinkedLists.Problem2;
+import com.company.LinkedLists.Problem5;
+
+import java.util.Random;
 
 public class Main {
 
@@ -109,8 +114,40 @@ public class Main {
         pb3.method1();
         pb3.method2();*/
 
-        Problem4 pb4 = new Problem4();
+        /*Problem4 pb4 = new Problem4();
         pb4.method1();
-        pb4.method2();
+        pb4.method2();*/
+
+        /*Problem5 pb5 = new Problem5();
+        pb5.method1(6);
+        pb5.method2(6);*/
+
+        /*Problem6 pb6 = new Problem6();
+        pb6.method1();
+        pb6.method2();*/
+
+        LinkedList<Integer> list = new LinkedList<>();
+        Random r = new Random();
+        for (int i = 0; i < 10; i++) {
+            list.addNode(r.nextInt(100));
+        }
+        list.displayList();
+
+        /*Problem1 pb1 = new Problem1();
+        LinkedList.Link newhead = pb1.method1(list.getFirst());
+        list.setFirst(newhead);
+        list.displayList();*/
+
+        /*Problem2 pb2 = new Problem2();
+        LinkedList.Link mid1 = pb2.method1(list.getFirst());
+        System.out.println();
+        mid1.display();
+        LinkedList.Link mid2 = pb2.method2(list.getFirst());
+        System.out.println();
+        mid2.display();*/
+
+        Problem5 pb5 = new Problem5();
+        pb5.method1(list);
+        list.displayList();
     }
 }

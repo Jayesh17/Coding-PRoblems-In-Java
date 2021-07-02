@@ -1,4 +1,4 @@
-package com.company.Algorithms;
+package com.company.DS_Algorithms;
 
 public class BinarySearch {
 

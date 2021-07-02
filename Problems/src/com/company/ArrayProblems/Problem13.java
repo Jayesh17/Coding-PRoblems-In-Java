@@ -6,7 +6,7 @@ package com.company.ArrayProblems;
 // Cond: all the rows are sorted from l to r, and first element of a row is always greater than
 // the previous row's last element.
 
-import com.company.Algorithms.BinarySearch;
+import com.company.DS_Algorithms.BinarySearch;
 
 //Prob2
 //Cond: all rows and all the columns are sorted.but not the second case of upper prob.

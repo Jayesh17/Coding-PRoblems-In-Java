@@ -12,6 +12,10 @@ public class LinkedList<T> {
             this.data = data;
             next=null;
         }
+        public void setNext(Link node1,Link node2)
+        {
+            node1.next = node2;
+        }
         public T getData()
         {
             return data;
@@ -31,6 +35,11 @@ public class LinkedList<T> {
         first=null;
         last= null;
     }
+
+    public Link getLast() {
+        return last;
+    }
+
     public int totalSize()
     {
         return count;
@@ -65,7 +74,18 @@ public class LinkedList<T> {
     }
     public void displayList()
     {
+        System.out.println();
         Link curr = first;
+        while(curr != null)
+        {
+            curr.display();
+            curr= curr.next;
+        }
+    }
+    public static void displayListByHead(LinkedList.Link head)
+    {
+        System.out.println();
+        LinkedList.Link curr = head;
         while(curr != null)
         {
             curr.display();
@@ -79,5 +99,13 @@ public class LinkedList<T> {
         node.next = temp.next;
         temp.next = null;
         temp=null;
+    }
+
+    public void mergeList(Link node1,Link node2)
+    {
+        if(node1.next == null)
+        {
+            node1.next = node2;
+        }
     }
 }

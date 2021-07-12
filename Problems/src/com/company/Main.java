@@ -1,17 +1,13 @@
 package com.company;
 
-import com.company.ArrayProblems.*;
-import com.company.DS_Algorithms.LinkedList;
-import com.company.LinkedLists.Problem1;
-import com.company.LinkedLists.Problem2;
-import com.company.LinkedLists.Problem3;
-import com.company.LinkedLists.Problem4;
-import com.company.LinkedLists.Problem5;
-import com.company.LinkedLists.Problem6;
-import com.company.LinkedLists.Problem7;
-import com.company.LinkedLists.Problem9;
+import com.company.ArrayProblems.Problem18;
+import com.company.LinkedLists.Problem13;
+import com.company.twoPointers.*;
+import org.w3c.dom.Node;
 
-import java.util.Random;
+import java.awt.*;
+import java.util.*;
+import java.util.List;
 
 public class Main {
 
@@ -104,7 +100,7 @@ public class Main {
             pb17.method2();
             pb17.method3();*/
 
-            //Hashing
+        //Hashing
 
             /*Problem1 pb1 = new Problem1();
             pb1.method2();*/
@@ -209,10 +205,10 @@ public class Main {
             LinkedList<Integer> result = pb6.method1(list2.getFirst(),list1.getFirst());
             result.displayList();*/
 
-            //Problem8 mate navi class banavi pdse LinkList ni so khali concept
-            //take 2 pointers : slow and fast, pointng to head, loop till fast.next == null & fast
-            // .next.next == null, move slow +1 , fast + 2 and check if slow==fast in loop, if it is
-            // = return true, else return false.
+        //Problem8 mate navi class banavi pdse LinkList ni so khali concept
+        //take 2 pointers : slow and fast, pointng to head, loop till fast.next == null & fast
+        // .next.next == null, move slow +1 , fast + 2 and check if slow==fast in loop, if it is
+        // = return true, else return false.
 
         /*Problem7 pb7 = new Problem7();
         pb7.method1(list1.getFirst(),list2.getFirst());
@@ -220,7 +216,7 @@ public class Main {
         pb7.method3(list1.getFirst(),list2.getFirst());
         pb7.method4(list1.getFirst(),list2.getFirst());*/
 
-        LinkedList<Integer> l = new LinkedList<>();
+        /*LinkedList<Integer> l = new LinkedList<>();
         l.addNode(1);
         l.addNode(2);
         l.addNode(3);
@@ -229,8 +225,96 @@ public class Main {
         l.addNode(2);
         l.addNode(1);
 
-        Problem9 pb9 = new Problem9();
-        pb9.method1(l.getFirst());
-        pb9.method2(l.getFirst());
+        Problem10 pb10 = new Problem10();
+        pb10.method1(l.getFirst());
+        pb10.method2(l.getFirst());*/
+
+        /*LinkedList<Integer> l = new LinkedList<>();
+        LinkedList.Link l1 = l.createNode(10);
+        LinkedList.Link l2 = l.createNode(11);
+        LinkedList.Link l3 = l.createNode(12);
+        LinkedList.Link l4 = l.createNode(13);
+
+        l1.setNext(l2);
+        l2.setNext(l3);
+        l3.setNext(l4);
+
+        Problem13 pb13 = new Problem13();
+        LinkedList.displayListByHead(l1);
+        LinkedList.Link newHead = pb13.method1(l1,12);
+        LinkedList.displayListByHead(newHead);*/
+
+        /*Problem8 pb8 = new Problem8();
+        pb8.method1(l1);
+        pb8.method2(l1);*/
+
+        /*Integer[] arr = {1,1,1,2,3,3,3,4};
+        Problem4 pb4 = new Problem4();
+        //pb4.method1(arr);
+        pb4.method2(arr);
+*/
+        /*Problem5 pb5 = new Problem5();
+        pb5.method1();
+
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(3);
+
+
+        list.remove(3);*/
+        //Enumeration<Integer> e = s.elements();
+
+        /*Problem18 pb18 = new Problem18();
+        pb18.method1("abcd");*/
+
+        /*Problem1 pb1 = new Problem1();
+        List<Integer> res = pb1.findNumbers("110101");
+        res.forEach(val -> System.out.println(val + " "));*/
+
+        /*Problem1 pb1 = new Problem1();
+        Problem1.Node head = pb1.createRandomList();
+        pb1.display(head);
+        Problem1.Node h1 = pb1.method1(head);
+        pb1.display(h1);
+
+        Problem1.Node h2 = pb1.method2(head);
+        pb1.display(h2);*/
+
+        /*HashSet<ArrayList<Integer>> hash = new HashSet<>();
+        ArrayList<Integer> a1 = new ArrayList<>();
+        a1.add(1);
+        a1.add(3);
+        a1.add(2);
+        ArrayList<Integer> a2 = new ArrayList<>();
+        a2.add(1);
+        a2.add(2);
+        a2.add(3);
+        hash.add(a1);
+        hash.add(a2);
+
+        hash.forEach(l -> {
+            System.out.println(l);
+        });*/
+
+        /*Problem2 pb2 = new Problem2();
+        int[] arr = {-1,0,1,2,-1,-4};
+        HashSet<List<Integer>> list1 = pb2.method1(arr);
+        List<List<Integer>> list2 = pb2.method2(arr);
+
+        list1.forEach(l -> {
+            System.out.println(l);
+        });
+
+        list2.forEach(l -> {
+            System.out.println(l);
+        });
+    }*/
+
+        Problem3 pb3 = new Problem3();
+        pb3.method1(new int[]{0, 1, 0, 2, 1, 0, 1, 3});
+        pb3.method2(new int[]{0, 1, 0, 2, 1, 0, 1, 3});
+        pb3.method3(new int[]{0, 1, 0, 2, 1, 0, 1, 3});
     }
 }

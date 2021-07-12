@@ -5,7 +5,7 @@ import com.company.DS_Algorithms.LinkedList;
 import java.util.Vector;
 
 //check if the list is palindrome or not.
-public class Problem9 {
+public class Problem10 {
 
     //Naive : T - O(N+N) S-(N)
     public void method1(LinkedList.Link l)

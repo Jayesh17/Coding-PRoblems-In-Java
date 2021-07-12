@@ -16,6 +16,10 @@ public class LinkedList<T> {
         {
             node1.next = node2;
         }
+        public void setNext(Link node2)
+        {
+            this.next = node2;
+        }
         public T getData()
         {
             return data;
@@ -51,6 +55,11 @@ public class LinkedList<T> {
         first = newNode;
         count++;
     }
+    public Link createNode(T data)
+    {
+        Link l = new Link(data);
+        return l;
+    }
     public Link getFirst()
     {
         return first;
@@ -72,6 +81,7 @@ public class LinkedList<T> {
         last.next = newNode;
         last = newNode;
     }
+
     public void displayList()
     {
         System.out.println();

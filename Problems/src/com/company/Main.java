@@ -1,6 +1,11 @@
 package com.company;
 
 import com.company.ArrayProblems.Problem18;
+import com.company.Greedy.Job;
+import com.company.Greedy.Problem1;
+import com.company.Greedy.Problem2;
+import com.company.Greedy.Problem3;
+import com.company.Greedy.Problem4;
 import com.company.LinkedLists.Problem13;
 import com.company.twoPointers.*;
 import org.w3c.dom.Node;
@@ -312,9 +317,33 @@ public class Main {
         });
     }*/
 
-        Problem3 pb3 = new Problem3();
+        /*Problem3 pb3 = new Problem3();
         pb3.method1(new int[]{0, 1, 0, 2, 1, 0, 1, 3});
         pb3.method2(new int[]{0, 1, 0, 2, 1, 0, 1, 3});
-        pb3.method3(new int[]{0, 1, 0, 2, 1, 0, 1, 3});
+        pb3.method3(new int[]{0, 1, 0, 2, 1, 0, 1, 3});*/
+
+/*
+        Problem1 pb1 = new Problem1();
+        pb1.method1(new int[]{1,3,0,5,8,5},new int[]{2,4,6,7,9,9},6);*/
+
+        /*Problem2 pb2 = new Problem2();
+        System.out.println(pb2.method1(new int[]{120,50,550,200,700,850},new int[]{600,550,700,
+                500,900,1000},6));
+*/
+        /*List<Job> jobs = new ArrayList<>();
+        jobs.add(new Job(1,20,4));
+        jobs.add(new Job(2,60,5));
+        jobs.add(new Job(3,70,6));
+        jobs.add(new Job(4,65,6));
+        jobs.add(new Job(5,25,4));
+        jobs.add(new Job(6,80,2));
+        jobs.add(new Job(7,10,2));
+        jobs.add(new Job(8,22,2));
+
+        Problem3 pb3 = new Problem3();
+        pb3.method1(jobs);*/
+
+        /*Problem4 pb4 = new Problem4();
+        pb4.method1(31);*/
     }
 }

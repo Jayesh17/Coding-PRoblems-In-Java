@@ -6,6 +6,7 @@ import com.company.Greedy.Problem1;
 import com.company.Greedy.Problem2;
 import com.company.Greedy.Problem3;
 import com.company.Greedy.Problem4;
+import com.company.Greedy.Problem5;
 import com.company.LinkedLists.Problem13;
 import com.company.twoPointers.*;
 import org.w3c.dom.Node;
@@ -345,5 +346,8 @@ public class Main {
 
         /*Problem4 pb4 = new Problem4();
         pb4.method1(31);*/
+
+        Problem5 pb5 = new Problem5();
+        pb5.method1(new int[]{100,60,120},new int[]{20,10,20},50);
     }
 }

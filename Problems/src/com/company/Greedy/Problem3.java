@@ -2,7 +2,6 @@ package com.company.Greedy;
 
 //Job sequencing problem - find the max profit.
 
-
 import java.util.*;
 
 public class Problem3 {

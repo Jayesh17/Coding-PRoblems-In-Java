@@ -1,19 +1,10 @@
 package com.company;
 
-import com.company.ArrayProblems.Problem18;
-import com.company.Greedy.Job;
-import com.company.Greedy.Problem1;
-import com.company.Greedy.Problem2;
-import com.company.Greedy.Problem3;
-import com.company.Greedy.Problem4;
-import com.company.Greedy.Problem5;
-import com.company.LinkedLists.Problem13;
-import com.company.twoPointers.*;
-import org.w3c.dom.Node;
-
-import java.awt.*;
-import java.util.*;
-import java.util.List;
+import com.company.RecursionAndBackTracking.Problem1;
+import com.company.RecursionAndBackTracking.Problem2;
+import com.company.RecursionAndBackTracking.Problem3;
+import com.company.StackAndQueue.Problem4;
+import com.company.StackAndQueue.Problem5;
 
 public class Main {
 
@@ -347,7 +338,47 @@ public class Main {
         /*Problem4 pb4 = new Problem4();
         pb4.method1(31);*/
 
+       /* Problem5 pb5 = new Problem5();
+        pb5.method1(new int[]{100,60,120},new int[]{20,10,20},50);*/
+
+        /*Problem1 pb1 = new Problem1();
+        pb1.push(1);
+        pb1.push(2);
+        pb1.push(3);
+        pb1.push(4);
+        System.out.println(pb1.top());
+        pb1.pop();
+        pb1.pop();
+        System.out.println(pb1.top());
+*/
+        /*Problem2 pb2 = new Problem2();
+        pb2.push(1);
+        pb2.push(2);
+        pb2.push(3);
+        pb2.push(4);
+        System.out.println(pb2.top());
+        pb2.pop();
+        pb2.pop();
+        System.out.println(pb2.top());*/
+
+        /*Problem3 pb3 = new Problem3();
+        pb3.method1("((()())");*/
+
+        /*Problem4 pb4 = new Problem4();
+        pb4.method1(new int[]{5,2,7,8,9,1,2,5,11,10});
         Problem5 pb5 = new Problem5();
-        pb5.method1(new int[]{100,60,120},new int[]{20,10,20},50);
+        pb5.method1(new int[]{5,2,7,8,9,1,2,5,11,10});*/
+
+        /*Problem1 pb1 = new Problem1();
+        pb1.method1(new int[]{1,2,1});
+        pb1.method2(new int[]{1,2,1})*/;
+/*
+
+        Problem2 pb2 = new Problem2();
+        pb2.method1(new int[]{1,2,3});
+*/
+
+        Problem3 pb3 = new Problem3();
+        pb3.method1(new int[]{1,2,3});
     }
 }
